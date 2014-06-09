@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0px;
+	padding:opx;
+	}
+
+header{
+	display:block;
+	}
+	
+body{
+	text-align:center;
+	}
+	
+#contenedor{
+	width:1024px;
+	margin:15px auto;
+	text-align:left;
+	
+	}
+
+#cabecera{
+	
+	background-color:#d9d2f7;
+	color:#FFF;
+	border:ipx solid #999;
+	width:1024px;
+	
+	}
+
+#navegacion{
+	background:#736f9c;
+	color:#FFF;
+	padding:5px 10px;
+	
+	}
+	
+#navegacion li{
+	display:inline-block;
+	list-style:none;
+	padding:5px;
+	font:bold 14px Verdana;
+	}
+	
+#principal{
+	float:left;
+	width:1024px;
+	margin:10px;
+	padding:20px;
+	background:#666;
+	}
+	
+	#principal2{
+	float:left;
+	width:962px;
+	margin:10px;
+	padding:20px;
+	background:#d9d2f7;
+	}
+
+	
+#pie{
+	clear:both;
+	text-align:center;
+	padding: 20px;
+	border-top:2px solid #ccc;
+	background:#736f9c;
+	}
+	
+
+h1,h2{text-align:center;}
+
+.centro{ text-align:center;}
+
+.titulo{
+	color: #d9d2f7;
+	font-family: "Garamond";
+	font-size: 20px;
+	text-align:center;
+}
+
+.documentacion
+{ background-image:url(../imagenes/documentacion.jpg);
+width:950px;
+height:300px;
+	
+}
+
+
+.descarga
+{ background-image:url(../imagenes/descarga.jpg);
+width:950px;
+height:300px;
+	
+}
+
+.negro
+{
+	color:#000;
+	
+}
+
+

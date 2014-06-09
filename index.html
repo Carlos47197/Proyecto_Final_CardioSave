@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>CARDIO SAVE</title>
+
+<style>@import"css/estilos.css";</style>
+<script src="js/ajax.js"></script>
+</head>
+
+<body onload="mueveReloj()">
+<div id="contenedor">
+	<header id="cabecera" class="sombra">
+		<table width="1024px" height="200">
+          <tr>
+          <td><center><img src="imagenes/descripcion2.jpg" width="300" height="170" /></center></td>
+          <td><center><img src="imagenes/logo.jpg" width="200" height="170" /></center></td>
+          <td><center><img src="imagenes/indicaciones.jpg" width="300" height="170" /></center></td>
+          </tr>
+          </table> 
+	</header>
+
+	<nav id="navegacion">
+		 <table width="1000px" height="50">
+     <tr>
+	 
+     <td width="200px" class="titulo">
+     <p onmousemove="this.style.background='black',this.style.color='#736f9c'" onmouseout="this.style.background='#736f9c',this.style.color='black'"<a onClick="Inicio();">INICIO</a></p>
+     </td> 
+     
+     <td width="200px" class="titulo">
+     <p onmousemove="this.style.background='black',this.style.color='#736f9c'" onmouseout="this.style.background='#736f9c',this.style.color='black'"<a onClick="Descripcion();">DESCRIPCIÓN</a></p>
+     </td>
+     
+     <td width="200px" class="titulo"><p onmousemove="this.style.background='black',this.style.color='#736f9c'" onmouseout="this.style.background='#736f9c',this.style.color='black'"<a onClick="Documentos();">DOCUMENTACIÓN</a></p>
+     </td>
+     
+     <td width="200px" class="titulo"><p onmousemove="this.style.background='black',this.style.color='#736f9c'" onmouseout="this.style.background='#736f9c',this.style.color='black'"<a onClick="Descargar();">DESCARGAR</a></p>
+     </td>
+     
+     <td width="200px" class="titulo"><p onmousemove="this.style.background='black',this.style.color='#736f9c'" onmouseout="this.style.background='#736f9c',this.style.color='black'"<a onClick="Contacto();">CONTACTO</a></p>
+     
+     </td>
+	 
+     </tr>
+     </table>  
+	
+	</nav>
+
+	<div id="principal2">
+		<center>
+                    
+              
+              <p class="centro"> 
+			<img src="imagenes/inicio.jpg" border="0" width="950" height="300">
+				
+		</p></center>
+        
+		
+	
+    </div>
+
+	<footer id="pie">
+		<label class="datoscreditos"> © CardioSave Todos los derechos reservados WebSite by Vane-Carlos Diseño HCI</label>
+	</footer>
+
+</div>
+<form name="form_reloj"> 
+<input type="text" name="reloj" size="10" style="background-color : Black; color : White; font-family : Verdana, Arial, Helvetica; font-size : 8pt; text-align : center;" onfocus="window.document.form_reloj.reloj.blur()"> 
+</form> 
+<br><a href="index.html"><input type="button" value="Home"/></a>
+
+</body>
+</html>
